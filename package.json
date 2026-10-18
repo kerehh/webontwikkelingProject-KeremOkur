@@ -1,0 +1,27 @@
+{
+  "name": "webontwikkelingproject-keremokur",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/kerehh/webontwikkelingProject-KeremOkur#readme",
+  "bugs": {
+    "url": "https://github.com/kerehh/webontwikkelingProject-KeremOkur/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kerehh/webontwikkelingProject-KeremOkur.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.5",
+    "@types/readline-sync": "^1.4.8"
+  },
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
+}
