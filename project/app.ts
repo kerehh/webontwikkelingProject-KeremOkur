@@ -1,12 +1,12 @@
-import * as rl from "readline-sync";
-import { type Auto } from "./interfaces.js";
-import * as fs from "fs";
-import * as path from "path";
+import fs from "node:fs";
+import path from "node:path";
+import readline from "readline-sync";
+import type { Auto } from "./interfaces.ts";
 
 const autos: Auto[] = JSON.parse(
-  fs.readFileSync(path.join(__dirname, "autos.json"), "utf-8")
+  fs.readFileSync(path.join(import.meta.dirname, "autos.json"), "utf-8"),
 );
- 
+
 function toonOverzicht(): void {
   console.log();
   for (const auto of autos) {
@@ -14,10 +14,10 @@ function toonOverzicht(): void {
   }
   console.log();
 }
- 
+
 function toonDetail(auto: Auto): void {
   const { motor } = auto;
- 
+
   console.log();
   console.log(`- ${auto.model} ${auto.generatie} (${auto.id})`);
   console.log(`  - Beschrijving: ${auto.beschrijving}`);
@@ -37,25 +37,27 @@ function toonDetail(auto: Auto): void {
   console.log(`    - Introductiejaar: ${motor.introductiejaar}`);
   console.log();
 }
- 
+
 function filterOpId(): void {
-  const invoer = rl.question("Geef het ID in waarop je wilt filteren: ").trim();
+  const invoer = readline
+    .question("Geef het ID in waarop je wilt filteren: ")
+    .trim();
   const id = Number(invoer);
   const auto =
     invoer !== "" && Number.isInteger(id)
       ? autos.find((a) => a.id === id)
       : undefined;
- 
+
   if (auto) {
     toonDetail(auto);
   } else {
     console.log(`\nGeen auto gevonden met ID "${invoer}".\n`);
   }
 }
- 
+
 function main(): void {
   console.log("Welkom bij de JSON data viewer!");
- 
+
   let doorgaan = true;
   while (doorgaan) {
     console.log();
@@ -63,9 +65,9 @@ function main(): void {
     console.log("2. Filteren op ID");
     console.log("3. Afsluiten");
     console.log();
- 
-    const keuze = rl.question("Maak een keuze: ").trim();
- 
+
+    const keuze = readline.question("Maak een keuze: ").trim();
+
     switch (keuze) {
       case "1":
         toonOverzicht();
@@ -82,5 +84,5 @@ function main(): void {
     }
   }
 }
- 
+
 main();

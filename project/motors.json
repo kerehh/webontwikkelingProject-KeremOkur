@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "code": "S14",
+    "cilinders": 4,
+    "cilinderinhoudCc": 2300,
+    "aspiratie": "atmosferisch",
+    "vermogenPk": 200,
+    "introductiejaar": 1986
+  },
+  {
+    "id": 2,
+    "code": "S50/S52",
+    "cilinders": 6,
+    "cilinderinhoudCc": 3201,
+    "aspiratie": "atmosferisch",
+    "vermogenPk": 286,
+    "introductiejaar": 1992
+  },
+  {
+    "id": 3,
+    "code": "S54",
+    "cilinders": 6,
+    "cilinderinhoudCc": 3246,
+    "aspiratie": "atmosferisch",
+    "vermogenPk": 343,
+    "introductiejaar": 2000
+  },
+  {
+    "id": 4,
+    "code": "S65",
+    "cilinders": 8,
+    "cilinderinhoudCc": 3999,
+    "aspiratie": "atmosferisch",
+    "vermogenPk": 420,
+    "introductiejaar": 2007
+  },
+  {
+    "id": 5,
+    "code": "S58",
+    "cilinders": 6,
+    "cilinderinhoudCc": 2993,
+    "aspiratie": "turbo",
+    "vermogenPk": 480,
+    "introductiejaar": 2020
+  },
+  {
+    "id": 6,
+    "code": "M88/3",
+    "cilinders": 6,
+    "cilinderinhoudCc": 3453,
+    "aspiratie": "atmosferisch",
+    "vermogenPk": 286,
+    "introductiejaar": 1984
+  },
+  {
+    "id": 7,
+    "code": "S38",
+    "cilinders": 6,
+    "cilinderinhoudCc": 3795,
+    "aspiratie": "atmosferisch",
+    "vermogenPk": 340,
+    "introductiejaar": 1988
+  },
+  {
+    "id": 8,
+    "code": "S62",
+    "cilinders": 8,
+    "cilinderinhoudCc": 4941,
+    "aspiratie": "atmosferisch",
+    "vermogenPk": 400,
+    "introductiejaar": 1998
+  },
+  {
+    "id": 9,
+    "code": "S85",
+    "cilinders": 10,
+    "cilinderinhoudCc": 4999,
+    "aspiratie": "atmosferisch",
+    "vermogenPk": 507,
+    "introductiejaar": 2005
+  },
+  {
+    "id": 10,
+    "code": "S63",
+    "cilinders": 8,
+    "cilinderinhoudCc": 4395,
+    "aspiratie": "turbo",
+    "vermogenPk": 600,
+    "introductiejaar": 2017
+  }
+]
