@@ -1,0 +1,262 @@
+[
+    {
+        "id": 1,
+        "model": "BMW M3",
+        "generatie": "E30",
+        "beschrijving": "De originele M3: een homologatiemodel voor het racecircuit, nu een gewilde klassieker.",
+        "jaar": 1988,
+        "prijs": 65000,
+        "inProductie": false,
+        "productiestart": "1986-09-01",
+        "afbeelding": "fotos/bmw-e30-m3.jpg",
+        "categorie": "coupé",
+        "kenmerken": [
+            "S14 viercilinder",
+            "Verbrede spatborden",
+            "Dogleg vijfversnellingsbak"
+        ],
+        "motor": {
+            "id": 1,
+            "code": "S14",
+            "cilinders": 4,
+            "cilinderinhoudCc": 2300,
+            "aspiratie": "atmosferisch",
+            "vermogenPk": 200,
+            "introductiejaar": 1986
+        }
+    },
+    {
+        "id": 2,
+        "model": "BMW M3",
+        "generatie": "E36",
+        "beschrijving": "Een gebalanceerde en betaalbare klassieker met een gladde zescilinder motor.",
+        "jaar": 1996,
+        "prijs": 38000,
+        "inProductie": false,
+        "productiestart": "1992-10-01",
+        "afbeelding": "fotos/bmw-m3-e36.jpg",
+        "categorie": "coupé",
+        "kenmerken": [
+            "Rechtstreekse zescilinder",
+            "Achterwielaandrijving",
+            "Handgeschakelde bak"
+        ],
+        "motor": {
+            "id": 2,
+            "code": "S50/S52",
+            "cilinders": 6,
+            "cilinderinhoudCc": 3201,
+            "aspiratie": "atmosferisch",
+            "vermogenPk": 286,
+            "introductiejaar": 1992
+        }
+    },
+    {
+        "id": 3,
+        "model": "BMW M3",
+        "generatie": "E46",
+        "beschrijving": "Door velen beschouwd als de puurste M3 dankzij zijn scherpe atmosferische motor.",
+        "jaar": 2003,
+        "prijs": 42000,
+        "inProductie": false,
+        "productiestart": "2000-10-01",
+        "afbeelding": "fotos/bmw-m3-e46.jpg",
+        "categorie": "coupé",
+        "kenmerken": [
+            "S54 zescilinder",
+            "SMG schakelbak optie",
+            "M sportstoelen"
+        ],
+        "motor": {
+            "id": 3,
+            "code": "S54",
+            "cilinders": 6,
+            "cilinderinhoudCc": 3246,
+            "aspiratie": "atmosferisch",
+            "vermogenPk": 343,
+            "introductiejaar": 2000
+        }
+    },
+    {
+        "id": 4,
+        "model": "BMW M3",
+        "generatie": "E90/E92/E93",
+        "beschrijving": "De enige M3 met een V8-motor, gekend om zijn hoge toerental en scherpe geluid.",
+        "jaar": 2010,
+        "prijs": 55000,
+        "inProductie": false,
+        "productiestart": "2007-09-01",
+        "afbeelding": "fotos/bmw-m3-e90.jpg",
+        "categorie": "coupé",
+        "kenmerken": [
+            "V8-motor",
+            "Koolstofvezel dak",
+            "Toerental tot 8400 tpm"
+        ],
+        "motor": {
+            "id": 4,
+            "code": "S65",
+            "cilinders": 8,
+            "cilinderinhoudCc": 3999,
+            "aspiratie": "atmosferisch",
+            "vermogenPk": 420,
+            "introductiejaar": 2007
+        }
+    },
+    {
+        "id": 5,
+        "model": "BMW M3",
+        "generatie": "G80/G81/G82",
+        "beschrijving": "De nieuwste generatie M3, krachtiger en technologischer dan ooit tevoren.",
+        "jaar": 2024,
+        "prijs": 92000,
+        "inProductie": true,
+        "productiestart": "2020-09-01",
+        "afbeelding": "fotos/bmw-m3-G80.jpg",
+        "categorie": "sedan",
+        "kenmerken": [
+            "Biturbo zescilinder",
+            "Grote nierengrille",
+            "Achterwielaandrijving"
+        ],
+        "motor": {
+            "id": 5,
+            "code": "S58",
+            "cilinders": 6,
+            "cilinderinhoudCc": 2993,
+            "aspiratie": "turbo",
+            "vermogenPk": 480,
+            "introductiejaar": 2020
+        }
+    },
+    {
+        "id": 6,
+        "model": "BMW M5",
+        "generatie": "E28",
+        "beschrijving": "De eerste M5, ooit de snelste sedan ter wereld en gebouwd in kleine oplage.",
+        "jaar": 1987,
+        "prijs": 78000,
+        "inProductie": false,
+        "productiestart": "1984-10-01",
+        "afbeelding": "fotos/-bmwm5-e28.jpg",
+        "categorie": "sedan",
+        "kenmerken": [
+            "Motor afgeleid van de M1",
+            "Handgebouwde motor",
+            "Kleine oplage"
+        ],
+        "motor": {
+            "id": 6,
+            "code": "M88/3",
+            "cilinders": 6,
+            "cilinderinhoudCc": 3453,
+            "aspiratie": "atmosferisch",
+            "vermogenPk": 286,
+            "introductiejaar": 1984
+        }
+    },
+    {
+        "id": 7,
+        "model": "BMW M5",
+        "generatie": "E34",
+        "beschrijving": "Een verfijnde snelle sedan, ook verkrijgbaar als sportieve stationwagen.",
+        "jaar": 1993,
+        "prijs": 45000,
+        "inProductie": false,
+        "productiestart": "1988-09-01",
+        "afbeelding": "fotos/bmw-m5-e34.jpg",
+        "categorie": "sedan",
+        "kenmerken": [
+            "S38 zescilinder",
+            "Touring-versie beschikbaar",
+            "Achterwielaandrijving"
+        ],
+        "motor": {
+            "id": 7,
+            "code": "S38",
+            "cilinders": 6,
+            "cilinderinhoudCc": 3795,
+            "aspiratie": "atmosferisch",
+            "vermogenPk": 340,
+            "introductiejaar": 1988
+        }
+    },
+    {
+        "id": 8,
+        "model": "BMW M5",
+        "generatie": "E39",
+        "beschrijving": "Vaak verkozen tot de beste M5 ooit dankzij zijn perfecte balans en V8-motor.",
+        "jaar": 2001,
+        "prijs": 48000,
+        "inProductie": false,
+        "productiestart": "1998-09-01",
+        "afbeelding": "fotos/bmw-m5-e39.jpg",
+        "categorie": "sedan",
+        "kenmerken": [
+            "V8-motor",
+            "Zesversnellingsbak",
+            "Begrensd op 250 km/u"
+        ],
+        "motor": {
+            "id": 8,
+            "code": "S62",
+            "cilinders": 8,
+            "cilinderinhoudCc": 4941,
+            "aspiratie": "atmosferisch",
+            "vermogenPk": 400,
+            "introductiejaar": 1998
+        }
+    },
+    {
+        "id": 9,
+        "model": "BMW M5",
+        "generatie": "E60",
+        "beschrijving": "De enige M5 met een V10-motor, met een unieke en zeer kenmerkende klank.",
+        "jaar": 2008,
+        "prijs": 58000,
+        "inProductie": false,
+        "productiestart": "2005-09-01",
+        "afbeelding": "fotos/bmw-m5-e60.jpg",
+        "categorie": "sedan",
+        "kenmerken": [
+            "V10-motor",
+            "SMG schakelbak",
+            "507 pk"
+        ],
+        "motor": {
+            "id": 9,
+            "code": "S85",
+            "cilinders": 10,
+            "cilinderinhoudCc": 4999,
+            "aspiratie": "atmosferisch",
+            "vermogenPk": 507,
+            "introductiejaar": 2005
+        }
+    },
+    {
+        "id": 10,
+        "model": "BMW M5",
+        "generatie": "F90",
+        "beschrijving": "Een supersnelle sedan met vierwielaandrijving en hybride ondersteuning.",
+        "jaar": 2024,
+        "prijs": 135000,
+        "inProductie": true,
+        "productiestart": "2017-08-01",
+        "afbeelding": "fotos/bmw-m5-F90.jpg",
+        "categorie": "sedan",
+        "kenmerken": [
+            "Biturbo V8",
+            "xDrive vierwielaandrijving",
+            "Automatische transmissie"
+        ],
+        "motor": {
+            "id": 10,
+            "code": "S63",
+            "cilinders": 8,
+            "cilinderinhoudCc": 4395,
+            "aspiratie": "turbo",
+            "vermogenPk": 600,
+            "introductiejaar": 2017
+        }
+    }
+]
